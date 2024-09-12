@@ -1,0 +1,17 @@
+// membuat program menggunakan method fetch
+// mengambil data pada URL API
+const apiUrl = 'https://jsonplaceholder.typicode.com/users';
+
+// Menggunakan fetch untuk mengambil data dari API
+fetch(apiUrl)
+    .then(response => {
+        // Memeriksa apakah respons sukses
+        if (!response.ok) {
+            throw new Error('Terjadi kesalahan');
+        }
+        return response.json(); // Mengonversi respons ke format JSON
+    })
+    .then(data => {
+        // Menampilkan semua nama dari data yang diterima
+        data.map(user => console.log(user.name));
+    })
