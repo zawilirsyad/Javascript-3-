@@ -55,12 +55,12 @@ Using the fetch method, retrieve and display all user names from the following A
 https://jsonplaceholder.typicode.com/users
 
 ### Explanation:
-fetch: This method is used to retrieve data from the API. It returns a promise that resolves into a response.
-response.json(): This method parses the response data into JSON format.
-data.map(): The .map() method is used to extract the name property from each user object in the API response.
-Debugger: You can use the Chrome browser's built-in debugger to view the network requests and logs in the console by pressing F12.
+- fetch: This method is used to retrieve data from the API. It returns a promise that resolves into a response.
+- response.json(): This method parses the response data into JSON format.
+- data.map(): The .map() method is used to extract the name property from each user object in the API response.
+- Debugger: You can use the Chrome browser's built-in debugger to view the network requests and logs in the console by pressing F12.
 
 ## How to Run the Program
--Clone or download the repository.
--Open each task file in a text editor.
--To run the code, use a browser's console or a Node.js environment.
+- Clone or download the repository.
+- Open each task file in a text editor.
+- To run the code, use a browser's console or a Node.js environment.
